@@ -1,0 +1,9 @@
+.container {
+  border: solid;
+  padding: 30px;
+  margin: 30px;
+}
+
+h1 {
+  color: blueviolet;
+}
