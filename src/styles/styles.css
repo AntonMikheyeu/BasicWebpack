@@ -1,3 +1,6 @@
+@import "~normalize.css";
+@import "main_font.css";
+
 .container {
   border: solid;
   padding: 30px;
@@ -6,4 +9,14 @@
 
 h1 {
   color: blueviolet;
+  font-family: "Inco", sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/hourse.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
