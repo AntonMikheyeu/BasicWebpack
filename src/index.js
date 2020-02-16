@@ -1,12 +1,16 @@
-import Post from './post';
-import './styles/styles.css';
-import some from './assets/some';
-import hourseIcon from './assets/hourse.jpg';
-import note from './assets/note.xml';
-import people from './assets/people.csv';
+import Post from '@models/post';
+import '@/styles/styles.css';
+import some from '@assets/some';
+import hourseIcon from '@assets/hourse.jpg';
+import note from '@assets/note.xml';
+import people from '@assets/people.csv';
+import * as $ from 'jquery';
+import '@/styles/less.less';
 
 
 const post = new Post("First", hourseIcon);
+
+$('pre').html(post.toString());
 
 console.log(post + '');
 
